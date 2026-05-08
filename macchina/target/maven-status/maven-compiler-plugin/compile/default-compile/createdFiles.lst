@@ -1,0 +1,5 @@
+com\corso\macchina\controller\CarCotroller.class
+com\corso\macchina\MacchinaApplication.class
+com\corso\macchina\service\CarService.class
+com\corso\macchina\entity\Car.class
+com\corso\macchina\repository\CarRepository.class
