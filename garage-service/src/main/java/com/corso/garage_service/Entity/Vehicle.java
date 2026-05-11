@@ -1,6 +1,5 @@
 package com.corso.garage_service.Entity;
 
-import com.corso.garage_service.GarageServiceApplication;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;
@@ -24,5 +23,5 @@ public class Vehicle {
     @ManyToOne
     @JoinColumn(name="garage_id")
     @JsonIgnore
-    private GarageServiceApplication garage;
+    private Garage garage;
 }
